@@ -20,12 +20,20 @@ import image6 from "../assets/gg6.jpg"
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Sectiontitle from './Sectiontitle';
 const Categories = () => {
     return (
         <div>
+
+
+          <Sectiontitle
+          heading={"--From 11:00am to 10:00pm--"}
+          subheading={" ORDER NOW"}>
+
+          </Sectiontitle>
            
 
-
+ 
 
             <Swiper
         spaceBetween={30}
@@ -121,6 +129,8 @@ const Categories = () => {
         </SwiperSlide>
          
       </Swiper>
+
+
 
 
 
