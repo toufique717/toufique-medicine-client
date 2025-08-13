@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import Orderonline from './Orderonline';
 import Categories from './Categories';
+import PopularItem from './PopularItem';
  
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
              <div className='max-w-lg mx-auto my-4 '>
                 <Categories></Categories>
              </div>
+             <PopularItem></PopularItem>
             
         </div>
     );
