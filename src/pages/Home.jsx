@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Orderonline from './Orderonline';
 import Categories from './Categories';
 import PopularItem from './PopularItem';
+import Bgimageorderonline from './Bgimageorderonline';
  
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <Categories></Categories>
              </div>
              <PopularItem></PopularItem>
+             <Bgimageorderonline></Bgimageorderonline>
             
         </div>
     );
