@@ -5,6 +5,8 @@ import Categories from './Categories';
 import PopularItem from './PopularItem';
 import Bgimageorderonline from './Bgimageorderonline';
 import Testimonials from './Testimonials';
+import Bgimage from './Bgimage';
+import Callus from './Callus';
  
 
 const Home = () => {
@@ -16,8 +18,11 @@ const Home = () => {
              <div className='max-w-lg mx-auto my-4 '>
                 <Categories></Categories>
              </div>
+
+             <Bgimage></Bgimage>
              <PopularItem></PopularItem>
              <Bgimageorderonline></Bgimageorderonline>
+             <Callus></Callus>
              <Testimonials></Testimonials>
             
         </div>
