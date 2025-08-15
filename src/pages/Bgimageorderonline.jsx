@@ -1,6 +1,7 @@
 import React from 'react';
 import Sectiontitle from './Sectiontitle';
 import frimage from '../assets/fr.jpg';
+
 import bimage from '../assets/bg.jpg'
 
 const Bgimageorderonline = () => {
@@ -8,7 +9,7 @@ const Bgimageorderonline = () => {
         <div>
 
             <div className=' py-10 '>
-            <div className='p-12 bg-black bg-opacity-50 bg-cover bg-center bg-blend-overlay ' style={{ backgroundImage: `url(${bimage})` }}>
+            <div className='p-12 bg-fixed bg-black bg-opacity-50 bg-cover bg-center bg-blend-overlay ' style={{ backgroundImage: `url(${bimage})` }}>
 
             <div>
                  <Sectiontitle

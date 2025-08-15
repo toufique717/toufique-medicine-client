@@ -4,6 +4,7 @@ import Orderonline from './Orderonline';
 import Categories from './Categories';
 import PopularItem from './PopularItem';
 import Bgimageorderonline from './Bgimageorderonline';
+import Testimonials from './Testimonials';
  
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
              </div>
              <PopularItem></PopularItem>
              <Bgimageorderonline></Bgimageorderonline>
+             <Testimonials></Testimonials>
             
         </div>
     );
