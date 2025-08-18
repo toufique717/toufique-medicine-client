@@ -7,11 +7,16 @@ import Bgimageorderonline from './Bgimageorderonline';
 import Testimonials from './Testimonials';
 import Bgimage from './Bgimage';
 import Callus from './Callus';
+import { Helmet } from 'react-helmet-async';
  
 
 const Home = () => {
     return (
         <div>
+
+            <Helmet>
+                <title>Toufique Medicine</title>
+            </Helmet>
              
             <Banner></Banner>
             {/* <Orderonline></Orderonline> */}
