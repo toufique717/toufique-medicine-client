@@ -3,6 +3,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Backcover from '../shared/Backcover';
 import Popularitem from '../pages/PopularItem'
+
 import backimage from '../assets/backimage.jpg'
 
 const Item = () => {
