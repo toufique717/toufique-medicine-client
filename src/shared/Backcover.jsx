@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Parallax, Background } from 'react-parallax';
 
 const Backcover = ({image, title1,title2}) => {

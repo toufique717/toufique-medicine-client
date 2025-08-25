@@ -5,6 +5,7 @@ import {
 import Main from "../layoutes/Main";
 import Home from "../pages/Home";
 import Item from "../menupage/Item";
+import Order from "../orderpage/Order";
 
 
 export const router = createBrowserRouter([
@@ -21,6 +22,11 @@ export const router = createBrowserRouter([
       {
         path: "/item",
         element:<Item></Item>,
+      },
+
+      {
+        path: "/order",
+        element:<Order></Order>,
       },
     ],
   },
